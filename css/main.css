@@ -6,3 +6,20 @@ body {
   background: #f1fffa;
 }
 
+.icon-top {
+  background: #2a9134;
+}
+
+.icon-top a {
+  color: #f1fffa;
+  font-size: 25px;
+  transition: color .5s ease-in-out;
+}
+
+.icon-top a:hover {
+  color: #242424;
+}
+
+.icon-top h5 {
+  color: #242424;
+}
