@@ -2,7 +2,6 @@ $(document).ready(function() {
     $(".navbar-toggler").click(function() {
     $(".navbar-toggler").toggleClass("change");
   });
-    /*
       //window scroll
 
       $(window).scroll(function() {
@@ -16,6 +15,7 @@ $(document).ready(function() {
           $(".navbar").removeClass("fixed-top");
         }
       });
+
       //smooth scroll
       $(".nav-item a").click(function(link) {
         link.preventDefault();
@@ -31,6 +31,7 @@ $(document).ready(function() {
         $(".navbar-toggler").toggleClass("change");
         $("#myNavbar").collapse("hide");
       });
+    /*
 
       // Isotope
       let $grid = $(".grid").isotope({
