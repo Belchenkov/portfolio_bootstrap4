@@ -105,9 +105,46 @@ body {
   background: #191919;
 }
 
+/* ######### slider ############ */
+.item-1,
+.item-2,
+.item-3 {
+  min-height: 60vh;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
+}
 
+.item-1 {
+  background: linear-gradient(to right, rgba(42, 145, 52, .8), rgba(42, 145, 52, .4)),
+    url('../img/banner-1.jpeg') no-repeat center center/cover fixed;
+}
 
+.item-2 {
+  background: linear-gradient(to right, rgba(42, 145, 52, .8), rgba(42, 145, 52, .4)),
+    url('../img/banner-2.jpeg') no-repeat center center/cover fixed;
+}
 
+.item-3 {
+  background: linear-gradient(to right, rgba(42, 145, 52, .8), rgba(42, 145, 52, .4)),
+    url('../img/banner-3.jpeg') no-repeat center center/cover fixed;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.banner-btn {
+  color: #f1fffa;
+  border: 2px solid #f1fffa;
+  transition: all 1s ease;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .3);
+}
+
+.banner-btn:hover {
+  color: #2a9134;
+  background: #f1fffa;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+}
 
 
 
