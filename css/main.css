@@ -95,6 +95,10 @@ body {
   background: rgba(42, 145, 52, .6);
 }
 
+.search-form input::placeholder {
+    color: #606060;
+}
+
 .search-btn {
   background: #2a9134;
   transition: all 1s ease;
