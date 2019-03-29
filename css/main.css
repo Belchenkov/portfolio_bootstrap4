@@ -468,3 +468,57 @@ body {
     color: #f1fffa;
     transform: scale(.9);
 }
+
+/* ########## team ############ */
+.member-container {
+    position: relative;
+    overflow: hidden;
+    background: #2a9134;
+}
+
+.team-image {
+    transition: all 1s ease-in-out;
+}
+
+.member-container:hover .team-image {
+    transform: translateY(-72px);
+    opacity: .5;
+}
+
+.team-icons a {
+    color: #f1fffa;
+    font-size: 25px;
+    transition: color 1s ease;
+    text-decoration: none;
+}
+
+.team-icons a:hover {
+    color: #242424;
+}
+
+.member-info {
+    transition: all 1s ease-in-out;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #2a9134;
+    padding: 10px;
+    color: #242424;
+    margin-bottom: -140px;
+}
+
+.member-container:hover .member-info {
+    margin-bottom: 0;
+}
+
+.member-icon a {
+    font-size: 4rem;
+    color: #f1fffa;
+    transition: all 1s ease;
+}
+
+.member-icon a:hover {
+    text-decoration: none;
+    color: #242424;
+}
